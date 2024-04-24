@@ -1,0 +1,150 @@
+.container {
+    background: var(--main-color);
+    max-width: 1900px;
+}
+
+.skewed {
+    position: relative;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--main-color);
+    z-index: 0;
+    transform: skewY(-3deg);
+    transform-origin: top left;
+}
+
+/* CONTAINER SKEWED */
+.content-skewed {
+    transform: skewY(3deg);
+    padding-top: 80px;
+}
+
+.time-line {
+    background: #fff;
+}
+
+header {
+    border-bottom: 1px solid #fffa;
+    margin-bottom: 5px;
+}
+/* MAIN */
+/* FIRST IMPRESION */
+/* AWESOME PROJECTS */
+.title-card {
+    text-align: start;
+    padding: 30px 20px;
+}
+
+.awesome-projects-card-container {
+    max-width: 600px;
+}
+
+.tools-container {
+    text-align: initial;
+}
+
+.play-button {
+    width: 30%;
+    right: 90px;
+}
+
+
+.card-body {
+    padding: 20px;
+}
+
+.awesome-project-img{
+    width: 100%;
+}
+
+.card-header {
+    text-align: left;
+    font-size: 25px;
+}
+
+.title-text {
+    width: 520px;
+    text-align: start;
+    font-size: 30px;
+}
+
+.text-description {
+    width: 500px;
+}
+
+/* FEATURES */
+.features-container {
+    width: 90%;
+    display: flex;
+}
+
+.features-img {
+    width: 550px;
+}
+
+/* TECHONOLOGY CONTAINER */
+.technology-content {
+    gap: 10px;
+}
+
+.technolgy-market-container-mobile {
+    display: none !important;
+}
+
+.technolgy-market-container-desktop {
+    display: block !important;
+}
+
+
+.text-solutions-descriptions {
+    width: 500px;
+}
+
+/* DOWNLOAD APP */
+.download-container {
+    width: 00px;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+/* SOLUTIONS */
+.text-solutions-descriptions {
+    text-align: start;
+    text-wrap: balance;
+}
+
+
+@media screen and (min-width:1200px){
+    .awesome-project-img{
+        width: 340px;
+    }
+
+    .play-button {
+        width:  18%;
+        left: 390px;
+    }
+
+    .technology-content {
+        gap: 70px;
+    }
+    
+}
+
+/* IN PROGRESS... */
+/* AWARDS */
+.awards-content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* FOOTER */
+.footer-container {
+    background-color: var(--fourth-color);
+}
+
+

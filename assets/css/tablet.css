@@ -1,0 +1,210 @@
+/* HEADER */
+.inputs-header {
+    display: none;
+}
+
+.header-nav {
+    display: block;
+    background-color: initial;
+    position: static;
+    font-size: 18px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.cta-item {
+    padding: 0;
+}
+
+.sign-in-item {
+    padding-top: 10px;
+}
+
+.header-logo {
+    width: 160px;
+}
+
+/* MAIN */
+/* FIRST IMPRESSION */
+.main-headline {
+    font-size: 30px;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.get-started {
+    font-size: 20px;
+}
+
+.trusted-text {
+    font-size: 16px;
+}
+
+.trusted-list img {
+    width: 100px;
+}
+
+/* CARD */
+.container-card-bg {
+    max-width: 420px;
+}
+
+.card-mastercard {
+    margin-top: 20px;
+}
+
+.container-card {
+    gap: 140px;
+}
+
+.card-number-text {
+    margin-left: 0;
+    letter-spacing: 1px;
+}
+
+.card-text-number,
+.card-name-text,
+.card-expiry-date-text,
+.card-expiry-text {
+    font-size: 16px;
+}
+
+.card-number-text {
+    font-size: 21px;
+}
+
+.name-text {
+    font-size: 18px;
+}
+
+.company-name,
+.payment-description,
+.price,
+.view-all-link {
+    font-size: 20px;
+}
+
+/* TIMELINE */
+
+.awesome-projects-card-container {
+    width: 100%;
+}
+
+
+.awesome-projects-section {
+    width: 100%;
+    max-width: 1900px;
+    flex-direction: row;
+}
+
+.awesome-project-img {
+    width: 100%;
+}
+
+
+.card-header {
+    font-size: 30px;
+}
+
+.play-button {
+    width: 120px;
+    right: 20px;
+}
+
+.left-button {
+    left: 10px;
+}
+
+
+/* FEATURES */
+
+.card-text,
+.time-text,
+.tag,
+.title-text,
+.text-description {
+    font-size: 18px;
+}
+
+/* COMPONENTS SECTION */
+.components-info-container {
+    padding: 25px 10px;
+}
+
+.profile-name {
+    text-align: start;
+    font-size: 18px;
+}
+
+
+/* PROFILE CONTAINER */
+.fa-heart {
+    font-size: 20px;
+}
+
+/* REVIEWS */
+.review-rate-text {
+    font-size: 23px;
+}
+
+.reviews-description {
+    font-size: 18px;
+}
+
+/* DOWNLOAD STORE */
+
+.text-download {
+    font-size: 18px;
+}
+
+/* SOLUTIONS CONTAINER */
+.solutions-container {
+    padding: 50px;
+}
+
+.text-solutions {
+    font-size: 30px;
+}
+
+.text-solutions-descriptions {
+    font-size: 18px;
+}
+
+/* DOWNLOAD APP STORE & ICONS*/
+.download-container {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.link-download {
+    width: 250px;
+}
+
+
+.icons-store {
+    font-size: 35px;
+}
+
+/* FOOTER */
+/* MEDIAQUERIE FOR LAPTOP */
+@media screen and (min-width: 700px) {
+    .time-line {
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 992PX) {
+    .techonol {
+        max-width: 80%;
+        margin: auto;
+    }
+
+
+}
