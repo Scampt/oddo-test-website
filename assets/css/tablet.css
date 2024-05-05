@@ -39,12 +39,18 @@
 }
 
 .get-started {
+    width: 170px;
     font-size: 20px;
+}
+
+.fa-plus {
+    font-size: 14px;
 }
 
 .trusted-text {
     font-size: 16px;
 }
+
 
 .trusted-list img {
     width: 100px;
@@ -124,6 +130,10 @@
 
 /* FEATURES */
 
+.features-img {
+    width: 100%;
+}
+
 .card-text,
 .time-text,
 .tag,
@@ -158,14 +168,24 @@
 }
 
 /* DOWNLOAD STORE */
+.download-container {
+    max-width: 550px;
+}
 
 .text-download {
-    font-size: 18px;
+    font-size: 15px;
+}
+.text-store {
+    font-size: 16px;
+}
+
+.icons-store {
+    font-size: 20px;
 }
 
 /* SOLUTIONS CONTAINER */
 .solutions-container {
-    padding: 50px;
+    max-width: 900px;
 }
 
 .text-solutions {
@@ -178,8 +198,8 @@
 
 /* DOWNLOAD APP STORE & ICONS*/
 .download-container {
-    flex-direction: column;
-    gap: 5px;
+    flex-direction: row;
+    gap: 15px;
 }
 
 .link-download {
@@ -191,20 +211,45 @@
     font-size: 35px;
 }
 
+/* AWARDS */
+.description-company {
+    padding: 10px;
+    text-align: center;
+}
+
+.review-rate-text {
+    text-align: center;
+}
+
+.reviews-description {
+    padding-top: 25px;
+}
+
+/* FAQ */
+
+.faq-title {
+    font-size: 30px;
+}
+
+.faq-description {
+    font-size: 18px;
+}
+
+summary {
+    flex-direction: row;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.details-faq-container {
+    gap: 0;
+}
+
 /* FOOTER */
 /* MEDIAQUERIE FOR LAPTOP */
 @media screen and (min-width: 700px) {
     .time-line {
-        max-width: 80%;
+        max-width: 95%;
         margin: auto;
     }
-}
-
-@media screen and (min-width: 992PX) {
-    .techonol {
-        max-width: 80%;
-        margin: auto;
-    }
-
-
 }

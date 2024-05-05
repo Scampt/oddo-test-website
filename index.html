@@ -21,7 +21,7 @@
                 <input class="header-checkbox" type="checkbox" id="open-menu">
                 <label for="open-menu" class="open-nav-button"><i class="fa-solid fa-bars"></i></label>
             </div>
-            <nav class="header-nav col-12 col-lg-8">
+            <nav class="header-nav col-12 col-lg-10 col-xl-8">
                 <div class="d-flex flex-column align-items-center flex-lg-row">
                     <ul class="nav-list list-unstyled m-0 p-0 col-12 col-lg-6">
                         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
@@ -116,12 +116,12 @@
     </section>
 
     <section class="time-line">
-        <div class="row text-center justify-content-center justify-content-md-start time-line-container awesome-projects-section mx-auto">
-            <div class="col-md-6 col-lg- col-xl-7 awesome-projects">
+        <div class="row text-center justify-content-center justify-content-md-start time-line-container awesome-projects-section">
+            <div class="col-12 col-md-6 col-xl-4 awesome-projects">
                 <div class="my-5 awesome-projects-card-container">
                     <h3 class="card-header title-card">Awesome Projects</h3>
-                    <figure class="container-img-card">
-                        <a href="#" class="play-button">Play Video
+                    <figure class="container-img-card awesome-img-container">
+                        <a href="#" class="play-button awesome-video-button-play">Play Video
                             <img src="assets/svg/play-video.svg" class="svg-icon" alt="Play Video">
                         </a>
                         <img class="awesome-project-img img-timeline" src="assets/img/img_01.jpg" alt="">
@@ -152,18 +152,18 @@
                 </div>
             </div>
             
-            <div class="col-md-6 col-lg-7 col-xl-5 container-post-description-cards">
+            <div class="col-12 col-md-6 col-xl-8 container-post-description-cards">
                 <div class="tools-container">
                     <span class="tag tools">Tools</span>
-                    <h4 class="title-text mt-3">We build for designers and developers</h4>
-                    <p class="text-description">Get components and examples, including tons of variables that will help you grow your business.</p>
+                    <h4 class="title-text mt-3 title-tools-text">We build for designers and developers</h4>
+                    <p class="text-description text-description-tools">Get components and examples, including tons of variables that will help you grow your business.</p>
                 </div>
             </div>
         </div>
         
-        <div class="row text-center justify-content-center justify-content-md-start features-container features-section mx-auto">
-            <div class="col-md-6 col-lg-6 col-xl-5 container-post-description-cards">
-                <div class="tools-container">
+        <div class="row text-center justify-content-center justify-content-md-start features-container features-section">
+            <div class="col-md-6 col-lg-6 container-post-description-cards">
+                <div class="features-container">
                     <span class="tag features">Features</span>
                     <h4 class="title-text mt-3">Get components and examples, including tons of variables that will help you grow your business.</h4>
                 </div>
@@ -181,7 +181,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-6 col-xl-7 features-container">
+            <div class="col-md-6 col-lg-6 features-container">
                 <figure class="features-container-img features-img">
                     <a href="#" class="play-button left-button">Play Video
                         <img src="assets/svg/play-video.svg" class="svg-icon" alt="Play Video">
@@ -194,7 +194,7 @@
         
         <div class="technology-container-section col-12 mt-5">
             <div class="row technology-container mb-5">
-                <div class="col-12 col-md-6 col-lg-2 col-xl-3 d-md-flex align-items-lg-center technology-content">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 d-md-flex align-items-lg-center technology-content">
                     <div class="col-12 first-row">
                     
                         <div class="profile-info-container flex-wrap d-flex justify-content-around align-items-center">
@@ -207,6 +207,7 @@
                             <h4 class="profile-name">Jimmy Hendrix</h4>
                             <i class="fa-regular fa-heart"></i>
                         </div>
+
                         <div class="col-12 mt-4 components-info-container d-flex justify-content-center align-items-center">
                                 <div class="profile-icon check-profile-icon"><i class="fa-solid fa-check check-icon"></i></div>
                                 <div class="component-container d-flex flex-column align-items-center">
@@ -214,6 +215,7 @@
                                     <p class="components-description">Built to be customized.</p>
                                 </div>
                         </div>
+
                     </div>
                     
                     <div class="col-12 second-row">
@@ -249,235 +251,286 @@
                                 </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex flex-column mb-4 d-none d-xl-block technolgy-market-container-desktop ">
-                        <div class="container-post-description-cards mt-3 d-flex flex-wrap justify-content-center align-items-center mx-auto">
-                            <span class="tag technology">Technology</span>
-                            <h4 class="title-text">We use the latest technologies on the market</h4>
-                            <p class="text-description">Get components and examples, including tons of variables that will help you grow your business.
+                    <div class="col-12 d-flex flex-column mb-4 d-none technolgy-market-container-desktop ">
+                        <div class="container-post-description-cards mt-3 d-flex flex-wrap justify-content-center align-items-center">
+                            <span class="tag technology mb-xl-3">Technology</span>
+                            <h4 class="title-text title-text-tech">We use the latest technologies on the market</h4>
+                            <p class="text-description text-description-tech">Get components and examples, including tons of variables that will help you grow your business.
                             </p>
-                            <a class="link-case-studies" href="#">See case studies</a>
                         </div>
+                            <a class="link-case-studies" href="#">See case studies</a>
                     </div>
                 </div>
-
                 <div class="col-12 d-flex flex-column mb-4 technolgy-market-container-mobile">
                     <div class="container-post-description-cards mt-3 d-flex flex-wrap justify-content-center align-items-center mx-auto">
                         <span class="tag technology mb-3">Technology</span>
                         <h4 class="title-text mb-3">We use the latest technologies on the market</h4>
-                        <p class="text-description">Get components and examples, including tons of variables that will help you grow your business.
+                        <p class="text-description text-md-center">Get components and examples, including tons of variables that will help you grow your business.
                         </p>
                         <a class="link-case-studies" href="#">See case studies</a>
                     </div>
                 </div>
             </div>
 
-            <div class="row text-center justify-content-center justify-content-md-start features-container features-section mx-auto">
-                <div class="col-md-6 col-lg-7 col-xl-5 container-post-description-cards">
-                    <div class="tools-container">
-                        <span class="tag install">Easy to install</span>
-                        <h4 class="title-text mt-3">Download, install and run.</h4>
-                        <p class="text-description text-install">Get components and examples, including tons of variables that will help you grow your business.
+    </div>
+
+    <div class="row text-center justify-content-center justify-content-md-start features-container features-section">
+        <div class="col-md-6 col-lg-7 col-xl-5 container-post-description-cards">
+            <div class="install-container">
+                <span class="tag install">Easy to install</span>
+                <h4 class="title-text mt-3">Download, install and run.</h4>
+                <p class="text-description text-install-description">Get components and examples, including tons of variables that will help you grow your business.
+                </p>
+            </div>
+            <div class="download-container d-flex flex-lg-row justify-content-center">
+                <a href="" class="link-download d-flex justify-content-center align-items-center">
+                    <i class="fa-brands fa-apple icons-store"></i>
+                    <p class="text-download d-flex flex-column justify-content-center align-items-center">Download on the <span class="text-store">App Store</span></p>
+                </a>
+                <a href="" class="link-download d-flex justify-content-center align-items-center">
+                    <i class="fa-brands fa-google-play icons-store"></i>
+                    <p class="text-download d-flex flex-column justify-content-center align-items-center">Download on the <span class="text-store">App Store</span></p>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-5 col-xl-7 d-flex align-items-center features-container">
+            <figure class="features-container-img features-img">
+                <a href="#" class="play-button left-button">Play Video
+                    <img src="assets/svg/play-video.svg" class="svg-icon" alt="Play Video">
+                </a>
+                <img class="container-img-card" src="assets/img/img_03.jpg" alt="">
+            </figure>
+        </div>
+        
+    </div>
+
+    <div class="solutions-container col-12 d-flex flex-wrap align-items-center justify-content-around mx-auto">
+        <div>
+            <h4 class="text-solutions">Infinite solutions</h4>
+            <p class="text-solutions-descriptions">Intuitive markup, powerful and lightning-fast build tools,
+                everything you need to turn your ideas into incredible products.
+            </p>
+        </div>
+        <a href="#" class="link-solutions">Learn more <i class="fa-solid fa-arrow-right solutions-icon"></i></a>
+        
+</div>
+
+    </section>
+
+    <section class="container skewed awards-container">
+        <div class="row d-flex text-center flex-wrap justify-content-center align-items-center justify-content-md-start content-skewed mb-5 awards-content">
+            <div class="container-post-description-cards awards-info-container mt-3 d-flex justify-content-start">
+                <span class="tag awards mb-3">Awards</span>
+                <h4 class="title-text">Awards for design, creativity and innovation on the Internet</h4>
+            </div>
+
+            <div class="col-12 award-company-container">
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-2 mt-5">
+                    <div class="profile-info-container award-element airbnb-container-award flex-column flex-wrap d-flex justify-content-center align-items-center">
+                        <figure class="profile-container">
+                            <img src="assets/svg/airbnb.svg" class="logo-company" alt="Airbnb">
+                        </figure>
+                        <div class="reviews-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star off"></i>
+                        </div>
+                        <p class="profile-name review-rate-text">4.95 out of 5 stars
+                            <span class="reviews-description">from 23 reviews</span>
                         </p>
                     </div>
-                    <div class="download-container d-flex flex-lg-row">
-                        <a href="" class="link-download d-flex justify-content-center align-items-center">
-                            <i class="fa-brands fa-apple icons-store"></i>
-                            <p class="text-download d-flex flex-column justify-content-center align-items-center">Download on the <span class="text-store">App Store</span></p>
-                        </a>
-                        <a href="" class="link-download d-flex justify-content-center align-items-center">
-                            <i class="fa-brands fa-google-play icons-store"></i>
-                            <p class="text-download d-flex flex-column justify-content-center align-items-center">Download on the <span class="text-store">App Store</span></p>
-                        </a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-2 mt-5">
+                    <div class="profile-info-container award-element amazon-container-award flex-column flex-wrap d-flex justify-content-center align-items-center">
+                        <figure class="profile-container">
+                            <img src="assets/svg/amazon.svg" class="logo-company" alt="Amazon">
+                        </figure>
+                        <p class="profile-name description-company">They build modern looking websites easily using Tabs.
+                        </p>
+                        <a class="link-learn-more" href="#">Learn more</a>
                     </div>
                 </div>
-    
-                <div class="col-md-6 col-lg-5 col-xl-7 d-flex align-items-center features-container">
-                    <figure class="features-container-img">
-                        <a href="#" class="play-button left-button">Play Video
-                            <img src="assets/svg/play-video.svg" class="svg-icon" alt="Play Video">
-                        </a>
-                        <img class="container-img-card" src="assets/img/img_03.jpg" alt="">
-                    </figure>
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-2 mt-5">
+                    <div class="profile-info-container award-element slack-container-award flex-column flex-wrap d-flex justify-content-center align-items-center">
+                        <figure class="profile-container">
+                            <img src="assets/svg/slack.svg" class="logo-company" alt="Slack">
+                        </figure>
+                        <p class="profile-name description-company">They build modern looking websites easily using Trello.
+                        </p>
+                        <a class="link-learn-more" href="#">Learn more</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-2 mt-5">
+                    <div class="profile-info-container award-element spotify-container-award flex-column flex-wrap d-flex justify-content-center align-items-center">
+                        <figure class="profile-container">
+                            <img src="assets/svg/spotify.svg" class="logo-company" alt="Spotify">
+                        </figure>
+                        <div class="reviews-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star off"></i>
+                        </div>
+                        <p class="profile-name review-rate-text">4.95 out of 5 stars
+                            <span class="reviews-description">from 23 reviews</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-2 mt-5">
+                    <div class="profile-info-container award-element paypal-container-award flex-column flex-wrap d-flex justify-content-center align-items-center">
+                        <figure class="profile-container">
+                            <img src="assets/svg/paypal.svg" class="logo-company" alt="PayPal">
+                        </figure>
+                        <p class="profile-name description-company">They build modern looking websites easily using Docker.
+                        </p>
+                        <a class="link-learn-more" href="#">Learn more</a>
+                    </div>
                 </div>
                 
             </div>
-
-            <div class="solutions-container col-12 mt-5">
-                <div class="d-flex justify-content-between">
-                    <h4 class="text-solutions">Infinite solutions</h4>
-                    <a href="#" class="link-solutions">Learn more <i class="fa-solid fa-arrow-right solutions-icon"></i></a>
-                </div>
-                <div class="solutions-content">
-                    <p class="text-solutions-descriptions">Intuitive markup, powerful and lightning-fast build tools,
-                        everything you need to turn your ideas into incredible products.
-                    </p>
-                </div>
-            </div>
-            
-
-             <!-- <section class="container skewed awards-container">
-        <div class="row d-flex text-center flex-wrap justify-content-center align-items-center justify-content-md-start content-skewed mb-5 awards-content">
-            <div class="container-post-description-cards mt-3 d-flex flex-wrap justify-content-center align-items-center mx-auto">
-                <span class="tag awards">Awards</span>
-                <h4 class="title-text">Awards for design, creativity and innovation on the Internet</h4>
-            </div>
-        <div class="col-12 d-flex justify-content-center">
-            <div class="col-12 col-lg-3 mt-5">
-                <div class="profile-info-container airbnb-container flex-column flex-wrap d-flex justify-content-center align-items-center">
-                    <figure class="profile-container">
-                        <img src="assets/svg/airbnb.svg" class="w-100" alt="Airbnb" srcset="">
-                    </figure>
-                    <div class="reviews-container">
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star off"></i>
-                    </div>
-                    <p class="profile-name review-rate-text">4.95 out of 5 stars
-                        <span class="reviews-description">from 23 reviews</span>
-                    </p>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 mt-5">
-                <div class="profile-info-container airbnb-container flex-column flex-wrap d-flex justify-content-center align-items-center">
-                    <figure class="profile-container">
-                        <img src="assets/svg/amazon.svg" class="w-100" alt="Amazon" srcset="">
-                    </figure>
-                    <p class="profile-name">They build modern looking websites easily using Tabs.
-                    </p>
-                    <a class="link-learn-more" href="#">Learn more</a>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 mt-5">
-                <div class="profile-info-container airbnb-container flex-column flex-wrap d-flex justify-content-center align-items-center">
-                    <figure class="profile-container">
-                        <img src="assets/svg/slack.svg" class="w-100" alt="Slack" srcset="">
-                    </figure>
-                    <p class="profile-name">They build modern looking websites easily using Trello.
-                    </p>
-                    <a class="link-learn-more" href="#">Learn more</a>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 mt-5">
-                <div class="profile-info-container airbnb-container flex-column flex-wrap d-flex justify-content-center align-items-center">
-                    <figure class="profile-container">
-                        <img src="assets/svg/spotify.svg" class="w-100" alt="Spotify" srcset="">
-                    </figure>
-                    <div class="reviews-container">
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star off"></i>
-                    </div>
-                    <p class="profile-name review-rate-text">4.95 out of 5 stars
-                        <span class="reviews-description">from 23 reviews</span>
-                    </p>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 mt-5">
-                <div class="profile-info-container airbnb-container flex-column flex-wrap d-flex justify-content-center align-items-center">
-                    <figure class="profile-container">
-                        <img src="assets/svg/paypal.svg" class="w-100" alt="PayPal" srcset="">
-                    </figure>
-                    <p class="profile-name">They build modern looking websites easily using Docker.
-                    </p>
-                    <a class="link-learn-more" href="#">Learn more</a>
-                </div>
-            </div>
         </div>
-    </div>
-            </section> -->
-
-    </div>
-
     </section>
-
-    </div>
-    </section>
+    
 
     <section class="container faq">
-            <!-- IN PROCESS... -->
+        <h4 class="title-text faq-title mt-5">Helpful answers</h4>
+        <p class="text-description text-install faq-description mb-3">Start buillding fast, beautiful and modern looking websites in no time.
+        </p>
+        <div class=" faq-container row">
+            <div class="col-12 d-flex flex-wrap details-faq-container">
+                <details class="details-section col-12 col-md-6 mb-md-3">
+                    <summary>
+                        <i class="fa-solid fa-file"></i>Wich license do i need?
+                        <i class="fa-solid fa-plus text-end"></i>
+                        <div class="open-faq">
+                        </div>
+                </summary>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum eos sint dicta aut obcaecati amet, eius praesentium. Reprehenderit possimus blanditiis ut dolores iste consequatur culpa. Pariatur adipisci impedit fuga praesentium.</p>
+                </details>
+                <details class="details-section col-12 col-md-6">
+                    <summary><i class="fa-solid fa-file"></i></i> Wich license do i need? <i class="fa-solid fa-plus"></i></summary>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum eos sint dicta aut obcaecati amet, eius praesentium. Reprehenderit possimus blanditiis ut dolores iste consequatur culpa. Pariatur adipisci impedit fuga praesentium.</p>
+                </details>
+                <details class="details-section col-12 col-md-6">
+                    <summary><i class="fa-solid fa-unlock"></i> How do i get access to my database? <i class="fa-solid fa-plus"></i></summary>
+                </details>
+                <details class="details-section col-12 col-md-6 mb-md-3">
+                    <summary><i class="fa-solid fa-unlock"></i> How do i get access to my database? <i class="fa-solid fa-plus"></i></summary>
+                </details>
+                <details class="details-section col-12 col-md-6">
+                    <summary><i class="fa-solid fa-folder"></i> How do i see previous orders? </i> <i class="fa-solid fa-plus"></i></summary>
+                </details>
+                <details class="details-section col-12 col-md-6">
+                    <summary><i class="fa-solid fa-folder"></i> How do i see previous orders? </i> <i class="fa-solid fa-plus"></i></summary>
+                </details>
+            </div>
+        </div>
     </section>
 
-    <section class="project-container d-flex flex-wrap flex-column justify-content-center align-items-center mt-5">
-            <h5 class="project-title">I want to start a new project.</h5>
-            <div class="projects-links-container">
-                <a href="#" class="link-project active">Buy now <i class="fa-solid fa-arrow-right project-icon"></i></a>
-                <a href="#" class="link-project learn-more">Learn more</a>
+    <section class="container project-container">
+            <div class="row  d-flex flex-wrap flex-column justify-content-center align-items-center">
+                <h5 class="project-title">I want to start a new project.</h5>
+                <div class="projects-links-container ">
+                    <a href="#" class="link-project active">Buy now <i class="fa-solid fa-arrow-right project-icon"></i></a>
+                    <a href="#" class="link-project learn-more">Learn more</a>
+                </div>
             </div>
     </section>
         
     </main>
 
-    <footer class="container footer-container mt-5">
-        <div class="row footer-solutions-container">
-            <div class="col-12 d-flex flex-column">
-                <h6 class="solutions-title">Brilliant solutions for your ideas</h6>
-                <p class="solutions-description-short">Modern looking websites</p>
-                <div class="projects-links-container-solutions d-flex align-items-center">
-                    <a href="#" class="link-project documentation"><i class="fa-solid fa-book"></i> Documentation</a>
-                    <a href="#" class="link-project purchase-now active">Purchase now</a>
-                </div>
-            </div>
+
+    
+<div class="container skewed footer-skewed">
+    
+    <div class="row footer-solutions-container brilliant-solutions content-skewed">
+        <div class="col-12 col-lg-6 d-flex flex-column">
+            <h6 class="solutions-title">Brilliant solutions for your ideas</h6>
+            <p class="solutions-description-short">Modern looking websites</p>
         </div>
-        <div class="row footer-solutions-container">
-            <div class="col-12 d-flex flex-column">
-                <div class="footer-menu-container d-flex justify-content-around text-center align-items-baseline">
-                    <nav class="account-menu">
-                        <h6 class="title-menu">Account</h6>
-                        <ul class="list-unstyled">
-                            <li class="item-menu"><a class="link-footer-menu" href="#">Profile</a></li>
-                            <li class="item-menu"><a class="link-footer-menu" href="#">Settings</a></li>
-                            <li class="item-menu"><a class="link-footer-menu" href="#">Billing</a></li>
-                            <li class="item-menu"><a class="link-footer-menu" href="#">Notifications</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="account-menu">
-                        <h6 class="title-menu">About</h6>
-                        <ul class="list-unstyled">
-                            <li class="item-menu"><a class="link-footer-menu" href="#">Services</a></li>
-                            <li class="item-menu"><a class="link-footer-menu" href="#">Pricing</a></li>
-                            <li class="item-menu"><a class="link-footer-menu" href="#">Contact</a></li>
-                            <li class="item-menu"><a class="link-footer-menu" href="#">Careers</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="account-menu">
-                        <h6 class="title-menu">Company</h6>
-                        <ul class="list-unstyled">
-                            <li class="item-menu"><a class="link-footer-menu" href="#">Community</a></li>
-                            <li class="item-menu"><a class="link-footer-menu" href="#">Help center</a></li>
-                            <li class="item-menu"><a class="link-footer-menu" href="#">Support</a></li>
-                        </ul>
-                    </nav>
+
+            <div class=" col-lg-6 projects-links-container-solutions d-flex align-items-center">
+                <a href="#" class="link-project documentation"><i class="fa-solid fa-book"></i> Documentation</a>
+                <a href="#" class="link-project purchase-now active">Purchase now</a>
+            </div>
+    </div>
+</div>
+
+    <footer class="footer-container">
+
+
+                <div class="d-flex col-12 mt-5 flex-column flex-lg-row">
+                    <div class="col-12 col-lg-5 footer-company-container">
+                        <figure class="footer-logo-container">
+                            <a href="#" class="text-decoration-none"><img class="footer-logo" src="assets/svg/odoo-white.svg" alt="Logo of Odoo"></a>
+                        </figure>
+                        <p class="logo-description">Odoo attempts to bring the best development experience to designers and developers by offering the tools needed for having a quick and solid start in most web projects.</p>
+                        <div class="socials-container">
+                            <a href="#"><i class="oddo-icon-social fa-brands fa-dribbble"></i></a>
+                            <a href="#"><i class="oddo-icon-social fa-brands fa-github"></i></a>
+                            <a href="#"><i class="oddo-icon-social fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="oddo-icon-social fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-7 footer-menu-container d-flex justify-content-around text-center align-items-baseline">
+                        <nav class="account-menu">
+                            <h6 class="title-menu">Account</h6>
+                            <ul class="list-unstyled">
+                                <li class="item-menu"><a class="link-footer-menu" href="#">Profile</a></li>
+                                <li class="item-menu"><a class="link-footer-menu" href="#">Settings</a></li>
+                                <li class="item-menu"><a class="link-footer-menu" href="#">Billing</a></li>
+                                <li class="item-menu"><a class="link-footer-menu" href="#">Notifications</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="account-menu">
+                            <h6 class="title-menu">About</h6>
+                            <ul class="list-unstyled">
+                                <li class="item-menu"><a class="link-footer-menu" href="#">Services</a></li>
+                                <li class="item-menu"><a class="link-footer-menu" href="#">Pricing</a></li>
+                                <li class="item-menu"><a class="link-footer-menu" href="#">Contact</a></li>
+                                <li class="item-menu"><a class="link-footer-menu" href="#">Careers</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="account-menu">
+                            <h6 class="title-menu">Company</h6>
+                            <ul class="list-unstyled">
+                                <li class="item-menu"><a class="link-footer-menu" href="#">Community</a></li>
+                                <li class="item-menu"><a class="link-footer-menu" href="#">Help center</a></li>
+                                <li class="item-menu"><a class="link-footer-menu" href="#">Support</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
                 </div>
-                <div class="footer-company-container text-center">
-                    <figure class="footer-logo-container">
-                        <a href="#" class="text-decoration-none"><img class="footer-logo" src="assets/svg/odoo-white.svg" alt="Logo of Odoo"></a>
-                    </figure>
-                    <p class="logo-description">Odoo attempts to bring the best development experience to designers and developers by offering the tools needed for having a quick and solid start in most web projects.</p>
-                    <div class="socials-container">
-                        <a href="#"><i class="oddo-icon-social fa-brands fa-dribbble"></i></a>
-                        <a href="#"><i class="oddo-icon-social fa-brands fa-github"></i></a>
-                        <a href="#"><i class="oddo-icon-social fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="oddo-icon-social fa-brands fa-facebook"></i></a>
+
+
+
+
+                <div class="row footer-copyright-container">
+                    <div class="col-12 d-flex flex-column menu-footer-content">
+                        <div class="footer-copyright d-flex justify-content-around mt-5">
+                            <p class="copyright-text"><i class="fa-regular fa-copyright"></i> <span class="oddo-copyright">Odoo.</span> All rights reserved</p>
+                            <nav class="copyright-nav">
+                                <ul class="list-unstyled d-flex flex-wrap copyright-menu">
+                                    <li><a class="link-copyright-menu" href="">Terms</a></li>
+                                    <li><a class="link-copyright-menu" href="">Privacy</a></li>
+                                    <li><a class="link-copyright-menu" href="">Cookies</a></li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
-                <div class="footer-copyright d-flex justify-content-around mt-5">
-                    <p class="copyright-text"><i class="fa-regular fa-copyright"></i> <span class="oddo-copyright">Odoo.</span> All rights reserved</p>
-                    <nav class="copyright-nav">
-                        <ul class="list-unstyled d-flex flex-wrap copyright-menu">
-                            <li><a class="link-copyright-menu" href="">Terms</a></li>
-                            <li><a class="link-copyright-menu" href="">Privacy</a></li>
-                            <li><a class="link-copyright-menu" href="">Cookies</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
     </footer>
-    
 
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/all.min.js"></script>

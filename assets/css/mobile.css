@@ -99,6 +99,22 @@ header {
     font-weight: 600;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+    color: #fafbff;
+}
+
+.buy-now:hover {
+    color: #3d3d3d;
+    background: #fafbff;
+}
+
+.get-started:hover {
+    text-decoration: none;
+    color: #080808;
+    background: #ebebeb;
+}
+
 .link-cta .fa-store {
     padding-right: 15px;
 }
@@ -123,6 +139,11 @@ header {
 }
 
 .get-started {
+    width: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
     padding: 15px 20px;
 }
 
@@ -281,6 +302,7 @@ header {
 }
 
 .awesome-projects-section {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -288,7 +310,7 @@ header {
 }
 
 /* CARD CONTAINER */
-.awesome-projects-card-container{
+.awesome-projects-card-container {
     width: 420px;
     margin: 50px auto;
     background-color: #fff;
@@ -300,7 +322,7 @@ header {
 
 .awesome-project-img {
     width: 320px;
-    border-radius: 30px;
+    border-radius: 20px;
     padding:  0 10px;
 }
 
@@ -336,11 +358,11 @@ header {
     width: 120px;
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: space-around;
     position: absolute;
     top: 10px;
     right: 60px;
-    padding: 5px;
+    padding: 6px;
     background-color: #fff;
     border-radius: 5px;
     color: #394553; 
@@ -361,7 +383,7 @@ header {
 }
 
 .svg-icon {
-    width: 15px;
+    width: 14px;
     fill: #394553;
 }
 
@@ -386,6 +408,7 @@ header {
 
 /* CONTAINER POST-DESCRIPTION CARD */
 .container-post-description-cards {
+    margin:auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -433,6 +456,10 @@ header {
 }
 
 /* FEATURES */ 
+.features-section {
+    margin-right: 0;
+}
+
 .features-container-img {
     margin: 15px auto;
     position: relative;
@@ -629,12 +656,14 @@ header {
 
 /* DOWNLOAD APP */
 .download-container {
+    width: 90%;
+    max-width: 450px;
     gap: 15px;
 }
 
 .text-download {
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .text-store {
@@ -643,15 +672,16 @@ header {
 }
 
 .link-download {
+    width: 100%;
     gap: 5px;
     background-color: #080808;
     color: #fff;
     border-radius: 15px;
-    padding: 5px 15px;
+    padding: 10px;
 }
 
 .icons-store {
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
 }
 
@@ -659,7 +689,7 @@ header {
 .solutions-container {
     color: #fff;
     background-color: var(--fourth-color);
-    border-radius: 0px 19px 0px 19px;
+    border-radius: 0px 50px 0px 50px;
     padding: 25px;
 }
 
@@ -674,10 +704,9 @@ header {
 }
 
 .link-solutions {
-    width: 200px;
     text-decoration: none;
     color: var(--secondary-color);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     background-color: #fff;
     text-align: center;
@@ -689,11 +718,30 @@ header {
     margin-left: 10px;
 }
 
+
 /* AWARDS */
 /* AWARDS CONTAINER */
+.award-company-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.award-element {
+    width: 280px;
+    height: 350px;
+    padding: 30px;
+}
+
 .awards-container {
     background-color: #fafbff;
     padding: 50px 20px;
+}
+
+.logo-company {
+    width: 100%;
+    padding: 20px;
 }
 
 /* PROFILE CONTAINER */
@@ -744,11 +792,60 @@ header {
 
 
 /* FAQS */
-/* IN PROCESS... */
+.faq {
+    background: none;
+}
+
+.faq-title {
+    font-size: 30px;
+}
+
+.faq-description {
+    max-width: 450px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.faq-container {
+    gap: 15px;
+}
+
+.details-faq-container {
+    gap: 20px;
+}
+
+details {
+    color: var(--fourth-color);
+}
+
+summary {
+    max-width: 400px;
+    font-size: 18px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    gap: 15px;
+    position: relative;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.25);
+    border-radius: 15px;
+}
+
+
+.fa-plus {
+    position: absolute;
+    right: 20px;
+    color: var(--third-color);
+    font-size: 11px;
+}
+
+
 
 /* PROJECT */
 .project-title {
-    color: var(--fourth-color);
+    color: var(--secondary-color);
     margin-bottom: 30px;
     font-size: 24px;
 }
@@ -761,7 +858,7 @@ header {
 
 .link-project {
     color: #fff;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 5px;
     font-size: 20px;
 }
@@ -778,8 +875,13 @@ header {
     color: var(--fourth-color);
 }
 
+.project-container {
+    background-color: #fff;
+    margin: 90px 0;
+}
 
 /* FOOTER */
+
 .footer-container {
     overflow: hidden;
     background-color: var(--fourth-color);
@@ -790,7 +892,14 @@ header {
 /* FOOTER SOLUTIONS */
 .footer-solutions-container {
     padding: 20px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.brilliant-solutions {
+    background-color: var(--fourth-color);
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff34, #ffffff3b, rgba(255, 255, 255, 0));
+    border-image-slice: 1;
 }
 
 .solutions-title {
@@ -816,14 +925,14 @@ header {
     color: var(--fourth-color);
     font-size: 18px;
     font-weight: 600;
-    padding: 8px 20px;
+    padding: 10px 20px;
     border-radius: 5px;
 }
 
 .purchase-now {
     font-size: 18px;
     font-weight: 600;
-    padding: 8px 20px;
+    padding: 10px 20px;
     background-color: var(--button-bg);
     border-radius: 5px;
 }
@@ -859,7 +968,6 @@ header {
 .footer-company-container {
     text-align: center;
     padding: 20px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .footer-logo-container {
@@ -889,6 +997,13 @@ header {
 }
 
 /* COPYRIGHT */
+
+.footer-copyright-container {
+    border-top: 1px solid transparent;
+    border-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff34, #ffffff3b, rgba(255, 255, 255, 0));
+    border-image-slice: 1;
+}
+
 .copyright-menu {
     display: flex;
     gap: 10px;

@@ -34,69 +34,77 @@ header {
 /* MAIN */
 /* FIRST IMPRESION */
 /* AWESOME PROJECTS */
+
+.awesome-projects-section {
+    padding-top: 200px;
+    margin: auto;
+}
+
 .title-card {
     text-align: start;
     padding: 30px 20px;
 }
 
 .awesome-projects-card-container {
-    max-width: 600px;
+    max-width: 400px;
 }
 
-.tools-container {
-    text-align: initial;
-}
-
-.play-button {
-    width: 30%;
-    right: 90px;
-}
-
-
-.card-body {
-    padding: 20px;
-}
-
-.awesome-project-img{
-    width: 100%;
-}
 
 .card-header {
     text-align: left;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .title-text {
-    width: 520px;
     text-align: start;
     font-size: 30px;
 }
 
-.text-description {
-    width: 500px;
-}
 
 /* FEATURES */
-.features-container {
+.features-section {
+    max-width: 1900px;
     width: 90%;
-    display: flex;
+    margin: auto;
+    margin-top: 120px;
 }
 
 .features-img {
-    width: 550px;
+    width: 420px;
 }
+
+.features-list {
+    text-align: start;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.features-container {
+    text-align: start;
+}
+
 
 /* TECHONOLOGY CONTAINER */
-.technology-content {
-    gap: 10px;
+.technology-container {
+    max-width: 1900px;
+    width: 100%;
+    margin-top: 120px;
 }
+
+.technology-container-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.technology {
+    margin-right: auto;
+}
+
 
 .technolgy-market-container-mobile {
-    display: none !important;
-}
-
-.technolgy-market-container-desktop {
-    display: block !important;
+    display: block;
 }
 
 
@@ -104,47 +112,210 @@ header {
     width: 500px;
 }
 
-/* DOWNLOAD APP */
-.download-container {
-    width: 00px;
-    flex-direction: column;
-    gap: 25px;
-}
-
-
-/* SOLUTIONS */
-.text-solutions-descriptions {
-    text-align: start;
+.title-text-tech {
     text-wrap: balance;
 }
 
 
-@media screen and (min-width:1200px){
-    .awesome-project-img{
-        width: 340px;
-    }
-
-    .play-button {
-        width:  18%;
-        left: 390px;
-    }
-
-    .technology-content {
-        gap: 70px;
-    }
-    
+.container-post-description-cards {
+    margin-top: 120px;
+}
+/* INSTALL CONTAINER */
+.install-container {
+    width: 90%;
+    text-align: start;
 }
 
-/* IN PROGRESS... */
+.text-install-description {
+    text-wrap: balance;
+}
+/* DOWNLOAD APP */
+.download-container {
+    width: 400px;
+    margin-right: 200px;
+    gap: 30px;
+}
+
+/* INFINITE SOLUTIONS */
+.solutions-container {
+    max-width: 1200px;
+    margin: 120px 0;
+}
+
 /* AWARDS */
-.awards-content {
-    display: flex;
-    flex-wrap: nowrap;
+.awards-container {
+    background: linear-gradient(0deg, rgba(250,251,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.award-element {
+    height: auto;
+}
+
+
+/* FAQ */
+.faq {
+    background: linear-gradient(0deg, rgba(250,251,255,1) 0%, rgba(255,255,255,1) 100%);
+
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.faq-description {
+    max-width: 900px
+}
+
+.details-faq-container {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* PROJECT */
+.link-project {
+    padding: 15px 30px;
+}
+
+.project-container {
+    background-color: #fff;
+    margin: 150px 0;
 }
 
 /* FOOTER */
-.footer-container {
+/* SOLUTIONS */
+
+.brilliant-solutions {
+    background: none;
+}
+
+.footer-skewed {
     background-color: var(--fourth-color);
+    color: #fff;
+    padding-bottom: 90px;
+    margin-bottom: -120px;
 }
 
 
+.solutions-title {
+    font-size: 30px;
+}
+
+.solutions-description-short {
+    font-size: 18px;
+}
+
+.solutions-title, .solutions-description-short {
+    text-align: start;
+    margin-left: 200px;
+}
+
+/* MENU FOOTER */
+.footer-company-container {
+    width: 20px;
+}
+
+.footer-logo-container, .logo-description {
+    text-align: start;
+    margin-left: 200px;
+}
+
+.logo-description {
+    width: 500px;
+}
+
+.footer-logo {
+    width: 180px;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: start;
+    margin-left: 200px;
+}
+
+/* COPYRIGHT */
+.footer-copyright {
+    gap: 600px;
+}
+
+.copyright-menu {
+    gap: 50px;
+}
+
+/* MEDIAQUERIE FOR GOD POSITIONING */
+@media screen and (min-width: 1200px) {
+    .technolgy-market-container-mobile {
+        display: none !important;
+    }
+    
+    .technolgy-market-container-desktop {
+        display: block !important;
+    }
+
+    /* AWARDS MOVEMENT */
+    .award-company-container {
+        gap: 35px;
+        justify-content: center;
+    }
+    
+    .award-element {
+        width: 220px;
+        height: 300px;
+        padding: 15px;
+    }
+
+    .awards {
+        margin-right: auto;
+    }
+
+    .awards-info-container {
+        margin-left: 200px;
+        padding-bottom: 200px;
+    }
+
+    .amazon-container-award, .spotify-container-award {
+        position: relative;
+        bottom: 150px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .title-tools-text {
+        position: relative;
+        left: 200px;
+    }
+
+    .text-description-tools {
+        width: 500px;
+        position: relative;
+        left: 200px;
+    }
+
+    .tools {
+        margin-right: 80px;
+    }
+
+    .awesome-img-container {
+        position: relative;
+        bottom: 250px;
+    }
+    
+    .awesome-project-img {
+        width: 450px;
+        position: absolute;
+    }
+
+    .container-img-card {
+        width: 600px;
+    }
+
+    /* PLAY BUTTON AWESOME */
+    .awesome-video-button-play {
+    left: 600px;
+    }
+
+    .award-company-container {
+        gap: 0;
+        justify-content: end;
+    }
+}
